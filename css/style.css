@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas-Regular.otf'),
+    url('../fonts/Bebas-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: Bebas;
+}
+.header {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+.header-main {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orange-block {
+    width: calc((100% - 980px)/2);
+    height: 60px;
+    background-color: #f2ae9c;
+    transform: translateY(60px);
+}
+.header-main__logo {
+    color: #e8603c;    
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    align-items: center;
+}
+.header-main__logo span{
+    color:#f0b19d;
+}
+
+.header-main__menu-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b9b9b9;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.header-main__menu-link:last-child {    
+    margin-right: 0px;
+}
+.header-main__menu-link.active {    
+    color: #e8603c;
+}
