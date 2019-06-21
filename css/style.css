@@ -55,3 +55,6 @@ body {
 .header-main__menu-link.active {    
     color: #e8603c;
 }
+.main-slider {
+    height: 400px;
+}
